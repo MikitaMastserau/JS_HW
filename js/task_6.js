@@ -7,14 +7,12 @@
 
 const someFn = function(word) {
     if (word.length % 2 === 0) {
-        const evenBigFirstLetter = word[0].toUpperCase();
-        const evenSmallLetters = word.slice(1, -1).toLowerCase();
+        const bigFirstLetter = word[0].toUpperCase();
+        const smallLetters = word.slice(1, -1).toLowerCase();
         const evenBigLastLetter = word.slice(-1).toUpperCase();
-        return evenBigFirstLetter + evenSmallLetters + evenBigLastLetter;
+        return bigFirstLetter + smallLetters + evenBigLastLetter;
     };
 
-    const bigFirstLetter = word[0].toUpperCase();
-    const smallLetters = word.slice(1).toLowerCase();
     return bigFirstLetter + smallLetters;
 };
 

@@ -2,13 +2,13 @@
 
 const sayHello = function(name) {
     if (name === "Mark") {
-        return "Hi, " + name + "!";
+        return "Hi, " + name[0].toUpperCase() + name.slice(1) + "!";
     }
     
-    return "Hello, " + name + "!";
+    return "Hello, " + name[0].toUpperCase() + name.slice(1) + "!";
 };
 
-console.log(sayHello("Mark"));
+console.log(sayHello("oleg"));
 
 /*или
 
@@ -18,10 +18,10 @@ const sayHello = function(name) {
     const hi = "Hi, ";
 
     if (name === "Mark") {
-        return hi + name + exclamation
+        return hi + name[0].toUpperCase() + name.slice(1) + exclamation
     };
     
-    return (hello + name + exclamation);
+    return (hello + name[0].toUpperCase() + name.slice(1) + exclamation);
 };
 
 console.log(sayHello("Oleg")); */

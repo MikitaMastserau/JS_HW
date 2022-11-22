@@ -2,32 +2,28 @@
 
 const min = function(a, b) {
     if (a > b) {
-        console.log(b);
-        return;
+        return b;
     };
     
-    console.log(a);
+    return a;
 };
 
-min(4, 3);
+console.log(min(4, 3));
 
 /* или (если нужно при равных другое выводить, не понял задание)
 
 const min = function(a, b) {
     if (a > b) {
-        console.log(b);
-        return;
+        return b;
     };
     
     if (a < b) {
-        console.log(a);
-        return;
+        return a;
     };
 
     if (a === b) {
-        console.log("min not found");
-        return;
+        return "min not found";
     };
 };
 
-min(3, 3); */
+console.log(min(3, 3)) */
