@@ -5,15 +5,17 @@
         someFn(‘javaScript’) // JavascripT */
 
 
-const someFn = function(word) {
+const someFn = function (word) {
+    const bigFirstLetter = word[0].toUpperCase();
+    
     if (word.length % 2 === 0) {
-        const bigFirstLetter = word[0].toUpperCase();
         const smallLetters = word.slice(1, -1).toLowerCase();
         const evenBigLastLetter = word.slice(-1).toUpperCase();
         return bigFirstLetter + smallLetters + evenBigLastLetter;
     };
 
-    return bigFirstLetter + smallLetters;
+    return bigFirstLetter + word.slice(1).toLowerCase();
 };
 
 console.log (someFn("javaScript"));
+console.log (someFn("helLO"));

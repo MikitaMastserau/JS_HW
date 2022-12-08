@@ -4,12 +4,17 @@
         checkLetterCase(‘s) //  ‘Нет уж, маленькие буквы - скучно’ */
 
 
-const checkLetterCase = function(letter) {
-    if (letter === letter.toUpperCase()) {
-        return "Оууу май, большая буква!";
+const checkLetterCase = function (letter) {
+    const optimizedLetter = typeof letter === "string" ? letter.trim() : null;
+
+    if (!optimizedLetter || optimizedLetter.length > 1) {
+        return;
     };
-    
-    return "Нет уж, маленькие буквы - скучно";
+
+    return letter === letter.toUpperCase() ? "Оууу май, большая буква!" : "Нет уж, маленькие буквы - скучно";
 };
 
 console.log (checkLetterCase("A"));
+console.log (checkLetterCase("a"));
+console.log (checkLetterCase("Aaa"));
+console.log (checkLetterCase(" "));

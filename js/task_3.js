@@ -1,18 +1,6 @@
 //функция которая возращает меньшее из чисел а, b.
 
-const min = function(a, b) {
-    if (a > b) {
-        return b;
-    };
-    
-    return a;
-};
-
-console.log(min(4, 3));
-
-/* или (если нужно при равных другое выводить, не понял задание)
-
-const min = function(a, b) {
+const min = function (a, b) {
     if (a > b) {
         return b;
     };
@@ -20,10 +8,12 @@ const min = function(a, b) {
     if (a < b) {
         return a;
     };
-
-    if (a === b) {
-        return "min not found";
-    };
+    
+    return "they are equal";
 };
 
-console.log(min(3, 3)) */
+console.log(min(4, 3));
+console.log(min(4, 5));
+console.log(min(3, 3));
+
+//Math.min(a, b)

@@ -3,8 +3,8 @@
 concatenate(‘Hello’, ‘World’) // ‘Hello World’. */
 
 
-const concatenate = function(firstWord, secondWord) {
-    return firstWord + " " + secondWord;
+const concatenate = function (firstWord, secondWord) {
+    return `${firstWord} ${secondWord}`;
 };
 
 console.log (concatenate("Hello", "World"));

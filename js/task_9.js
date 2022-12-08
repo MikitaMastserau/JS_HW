@@ -4,7 +4,7 @@ checkStringLength(‘HI’, 2) // Hi
 checkStringLength(‘HI’, 1) // – ‘String is too long!’. */
 
 
-const checkStringLength = function(string, number) {
+const checkStringLength = function (string, number) {
     if (string.length > number) {
         return "String is too long!";
     };

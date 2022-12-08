@@ -1,6 +1,6 @@
 //напишите функцию, которая принимает число, и возвращает четное оно или нет.
 
-const isEven = function(n) {
+const isEven = function (n) {
     return n % 2 === 0;
 };
 
