@@ -1,0 +1,18 @@
+{
+  "name": "js_6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task_1.js",
+  "scripts": {
+    "watch": "npx parcel task_1.js --open"
+  },
+  "keywords": [
+    "npm",
+    "js"
+  ],
+  "author": "Mikita Mastserau <nik.redko@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
