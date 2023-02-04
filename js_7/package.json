@@ -1,0 +1,18 @@
+{
+  "name": "js_7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task_2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx parcel task_2.js --open"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Mikita Mastserau <nik.redko@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
