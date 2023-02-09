@@ -71,7 +71,7 @@ console.log(ATMreduce(10));
 console.log(ATMreduce(0));
 console.log("--------------------------------");
 
-const ATMother = (sum) => {
+const ATM_other = (sum) => {
     const sortBanknotes = [...BANKNOTS].sort((current, next) => next - current);
     const result = [];
 
