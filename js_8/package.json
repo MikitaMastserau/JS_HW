@@ -1,0 +1,17 @@
+{
+  "name": "js_8",
+  "version": "1.0.0",
+  "description": "js game",
+  "main": "task_2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Mikita Mastserau <nik.redko@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
