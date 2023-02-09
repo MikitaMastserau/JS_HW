@@ -86,7 +86,6 @@ const Game = () => {
     let triesAmount = pickLevel(LEVELS);
     const playersAmount = pickPlayersAmount();
     const players = pickPlayersNames(playersAmount);
-    alert(secretNumber);
 
     let turnsCount = 1;
 
